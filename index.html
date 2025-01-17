@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebCloning</title>
     <link rel="stylesheet" href="webcloning.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <nav class="bg-blue-500 grid grid-cols-2">
         <div class="flex p-7">
            <a href=""><img src="img/logo.png" alt="logo"></a>
         </div>
-        <div class="list-none flex justify-evenly justify-end items-center text-white pr-12">
+        <div class="list-none flex justify-end items-center text-white pr-12">
             <li class="border-2 rounded-full border-transparent hover:bg-slate-800 px-3 py-1">
                 <a href="">Home</a></li>
             <li class="border-2 rounded-full border-transparent hover:bg-slate-800 px-3 py-1" ><a href="">Our Shop</a></li>
@@ -37,19 +39,35 @@
                 <img class="rounded-2xl" src="img/bimage.png" alt="body image">
             </div>
         </div>
-        <div>
-            <div>
-                <a href="">
-                    
-                    <span>FREE STORAGE</span>
+        <div class="bg-blue-500 rounded-b-full h-36">
+            <div class="flex justify-center h-54 space-x-7">
+                <a class="border-4 p-10 rounded-3xl border-transparent shadow-2xl bg-white" href="">
+                    <i class='bx bx-cloud-download text-blue-600 text-9xl hover:text-red-400'></i>
+                    <h1 class=" flex justify-center font-bold">FREE STORAGE</h1>
+                </a>
+                <a class="border-4 p-10 rounded-3xl border-transparent shadow-2xl bg-white" href="">
+                    <i class='bx bx-user-circle text-9xl text-blue-600 hover:text-red-400' ></i>
+                    <h1 class="font-bold flex justify-center">USER MORE</h1> 
+                </a>
+                <a class="border-4 p-10 rounded-3xl border-transparent shadow-2xl bg-white" href="">
+                    <i class='bx bx-play-circle text-9xl text-blue-600 hover:text-red-400'></i>
+                    <h1 class="font-semibold flex justify-center"> REPLY READY</h1>
+                 </a>
+                <a class="border-4 p-10 rounded-3xl border-transparent shadow-2xl bg-white" href="">
+                    <i class='bx bx-layout text-9xl text-blue-600 hover:text-red-400' ></i>
+                    <h1 class="font-bold flex justify-center">EASY LAYOUT</h1>
                 </a>
             </div>
-            <div>
-                <a href=""> USER MORE</a>
-            </div>
-            <div></div>
-            <div></div>
+                
         </div>
+    </div>
+    <div class="pt-56 pl-36">
+        <h1 class="text-red-400 font-bold">TRENDING</h1>
+        <div class="pt-6 flex justify-between">
+            <h1 class="font-bold text-4xl">Trending Games</h1>
+            <a class="border-2 mr-36 rounded-full px-4 py-3 bg-red-400 border-transparent text-white font-bold" href="">VIEW ALL</a>
+        </div>
+       
     </div>
 </body>
 </html>
