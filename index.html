@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <nav class="bg-[#0171f9] grid grid-cols-2 sticky top-0 rounded-b-3xl mt-2">
+    <nav class="bg-[#0171f9] grid grid-cols-2 sticky top-0  rounded-b-3xl mt-2">
         <div class="flex p-7">
            <a href=""><img src="img/logo.png" alt="logo"></a>
         </div>
@@ -22,7 +22,7 @@
             <li class="bg-[#ed626a] border-2 rounded-full border-transparent px-4 py-2 uppercase "><a href="">Sign In</a></li>
         </div>
     </nav>
-    <div class="">
+    <div class="relative">
         <div class="bg-[#0171f9] grid grid-cols-2 pt-12 pl-16 space-x-28 pb-28">
             <div class="text-white space-y-7">
                 <h2 class="font-semibold">WELCOME TO LUGX</h2>
@@ -35,9 +35,10 @@
                     <button class=" bg-red-500 rounded-full px-3 py-3 text-white border-transparent hover:bg-blue-600" type="button">SEARCH NOW</button>
                 </div>
             </div>
-            <div>
-                <img class="rounded-2xl relative" src="img/bimage.png" alt="body image">
-                <h1 class="border-2 bg-red-400 inline-block rounded-full p-5">-40%</h1>
+            <div class="relative flex flex-col">
+                <h1 class="text-white font-bold text-4xl rounded-full absolute z-10 bg-blue-600 left-[470px] mt-6 px-4 py-2">$22</h1>
+                <img class="rounded-2xl relative w-[600px] h-[500px]" src="img/bimage.png" alt="body image">
+                <h1 class="border-2 border-transparent bg-red-400 inline-block rounded-full p-12 absolute z-10 -bottom-6 right-[700px]">-40%</h1>
             </div>
         </div>
         <div class="bg-[#0171f9] rounded-b-full h-36">
@@ -260,6 +261,34 @@
                         </a>
                     </div>
         </div>
+    </div>
+    </div>
+    </div>
+    <div class="pt-96 flex pb-36 justify-center items-center relative">
+        <div class="border-2 rounded-2xl bg-[#f7f7f7] shadow-lg p-12 sm:w-[450px] sm:h-[450px] mx-4  absolute top-1/2 z-10 left-96">
+            <h1 class="font-bold text-[#ed626a] mb-2">OUR SHOP</h1>
+            <h1 class="font-bold text-4xl mb-4 ">Go Pre-Order Buy & Get Best Prices For You!</h1>
+            <p class=" text-gray-500 mb-4">Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.</p>
+            <div class="pt-6">
+                <a class="border-2 rounded-full px-7 py-3 bg-[#ed626a] border-transparent text-white font-bold text-sm hover:bg-blue-600" href="">Shop Now</a>
+            </div>
+        </div>
+        <div class=" relative sm:w-auto mx-4">
+            <img class=" w-full max-w-3xl h-auto object-cover rounded-2xl" src="img/cta-bg.jpeg" alt="">
+        </div>
+        <div class="border-2 bg-[#f7f7f7] rounded-3xl pb-4 w-full sm:w-[500px] sm:h-96 p-12 mx-4 text-center absolute bottom-20 right-96 z-3">
+            <h1 class="font-bold text-[#ed626a] mb-2">Newsletter</h1>
+            <h1 class="font-bold text-4xl">Get Up To $100 Off Just Buy Subscribe Newsletter!</h1>
+            <div class="rounded-full inline-block border-transparent bg-white pl-2 mt-4">
+                <input class="bg-white rounded-full px-2 py-3 " type="email" name="search" id="search" placeholder=" Your email...">
+                <button class=" bg-[#ed626a] rounded-full px-3 py-3 text-white border-transparent hover:bg-blue-600" type="button">SUBSCRIBE NOW</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex gap-4 justify-center pt-12 bg-[url('/img/footer-bg.jpeg')] rounded-t-full pb-12 text-white">
+        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved.</p>
+        <a href="">Design: TemplateMo</a>
     </div>
 </body>
 </html>
